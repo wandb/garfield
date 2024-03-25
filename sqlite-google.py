@@ -1,11 +1,11 @@
 # Import from Google Sheet
 import sqlite3
 import pandas as pd
+import os
 import weave
 from weave import Dataset
 
-wandb.login()
-weave.init('garfield')
+weave.init('offsite-03-22/garfield')
 
 DATASET_NAME = "billboard"
 
