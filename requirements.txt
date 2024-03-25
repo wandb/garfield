@@ -1,5 +1,5 @@
 pandas
-weave
+git+https://github.com/wandb/weave.git@master
 streamlit
 openai
 jupyterlab
