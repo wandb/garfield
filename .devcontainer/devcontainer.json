@@ -1,11 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {
-      "installJupyterlab": true
-    }
-  },
-  "postCreateCommand": "pip3 install --user -r requirements.txt",
+  "name": "Python 3",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.12-bullseye",
+  "postCreateCommand": "pip install --user -r requirements.txt",
   "customizations": {
     "vscode": {
       "extensions": [

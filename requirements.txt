@@ -2,3 +2,4 @@ pandas
 weave
 streamlit
 openai
+jupyterlab
