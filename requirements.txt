@@ -3,3 +3,4 @@ weave
 streamlit
 openai
 jupyterlab
+pandas
