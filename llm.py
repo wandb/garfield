@@ -6,7 +6,7 @@ from openai import OpenAI
 
 
 # do wandb login in the command line
-weave.init('garfield2')
+weave.init('offsite-03-22/garfield2')
 
 class Text2SQLModel(weave.Model):
     system_prompt: str
