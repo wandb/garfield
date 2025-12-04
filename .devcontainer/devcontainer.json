@@ -10,7 +10,10 @@
       ]
     }
   },
-  "forwardPorts": [8501],
+  "forwardPorts": [
+    8501,
+    6369
+  ],
   "secrets": {
     "OPENAI_API_KEY": {
       "description": "Your OpenAI API Key",
@@ -20,5 +23,8 @@
       "description": "Your W&B API Key",
       "documentationUrl": "https://wandb.ai/authorize"
     }
+  },
+  "features": {
+    "ghcr.io/wandb/catnip/feature:1": {}
   }
 }
